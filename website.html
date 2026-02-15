@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Thanvant R | Nature & Tech</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      color: #1f2933;
+      background: #f6f8f5;
+      line-height: 1.7;
+    }
+
+    header {
+      height: 100vh;
+      background: linear-gradient(
+        rgba(0,0,0,0.4),
+        rgba(0,0,0,0.6)
+      ),
+      url("hero.jpg") center/cover no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: #fff;
+      padding: 20px;
+    }
+
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+      letter-spacing: 1px;
+    }
+
+    header p {
+      margin-top: 12px;
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+
+    section {
+      padding: 80px 10%;
+    }
+
+    .about {
+      background: #ffffff;
+      border-radius: 18px;
+      padding: 50px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.06);
+    }
+
+    .about h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.2rem;
+      margin-bottom: 20px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+      margin-top: 40px;
+    }
+
+    .card {
+      background: #f0f4f0;
+      padding: 25px;
+      border-radius: 14px;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+    }
+
+    .gallery img {
+      width: 100%;
+      object-fit: cover;
+      border-radius: 14px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px;
+      background: #1b2e1f;
+      color: #d1e7d3;
+      font-size: 14px;
+    }
+
+    a {
+      color: #2f855a;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .contact {
+      background: #ffffff;
+      border-radius: 18px;
+      padding: 50px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.06);
+    }
+
+    .contact h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.2rem;
+      margin-bottom: 20px;
+    }
+
+    .contact p {
+      margin-bottom: 15px;
+    }
+
+    @media(max-width: 600px) {
+      header h1 {
+        font-size: 2.2rem;
+      }
+      section {
+        padding: 60px 6%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HERO -->
+  <header>
+    <div>
+      <h1>Thanvant R</h1>
+      <p>Nature • Birds • Technology • Stories</p>
+    </div>
+  </header>
+
+  <!-- ABOUT -->
+  <section>
+    <div class="about">
+      <h2>About Me</h2>
+      <p>
+        I am a passionate photographer specializing in wildlife, events, portraits, and landscapes, with a deep love for capturing stories through light and composition. I focus on preserving authentic emotions, natural beauty, and powerful moments that leave a lasting impression.
+
+        Beyond photography, I have a strong interest in Fusion 360 and 3D design, where creativity meets engineering precision. Exploring design and modeling allows me to expand my visual thinking and technical understanding.
+
+        I believe creativity has no limits — whether through a camera lens or a 3D modeling workspace, I strive to transform ideas into compelling visual experiences.
+      </p>
+
+      <div class="grid">
+        <div class="card">
+          <h3>🌿 Nature</h3>
+          <p>Bird photography, biodiversity documentation, eco-tourism concepts.</p>
+        </div>
+
+        <div class="card">
+          <h3>⚙️ Technology</h3>
+          <p>Embedded systems, hardware prototyping, engineering solutions.</p>
+        </div>
+
+        <div class="card">
+          <h3>📷 Visual Storytelling</h3>
+          <p>Wildlife narratives through light, composition, and patience.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section>
+    <h2 style="font-family:Playfair Display; margin-bottom:30px;">
+      Selected Frames
+    </h2>
+
+    <div class="grid gallery">
+      <img src="your-photo1.jpg" alt="DRAGON FLY(1)">
+      <img src="your-photo2.jpg" alt="SPOTTED OWLET(1)">
+      <img src="your-photo3.jpg" alt="INDIAN WHITE EYE(3)">
+      <img src="your-photo4.jpg" alt="DRAGON FLY(1)">
+      <img src="your-photo6.jpg" alt="INDIAN WHITE EYE(3)">
+      <img src="your-photo7.jpg" alt="INDIAN WHITE EYE(3)">
+    </div>
+  </section>
+
+  <!-- EVENTS -->
+  <section>
+    <h2 style="font-family:Playfair Display; margin-bottom:30px;">
+      Events
+    </h2>
+    <div class="grid gallery">
+      <img src="event1.jpeg" alt="Event Photo 1">
+      <img src="event2.jpg" alt="Event Photo 2">
+      <img src="event3.jpg" alt="Event Photo 3">
+    </div>
+  </section>
+
+  <!-- MACRO -->
+  <section>
+    <h2 style="font-family:Playfair Display; margin-bottom:30px;">
+      Macro
+    </h2>
+    <div class="grid gallery">
+      <img src="macro1.jpeg" alt="Macro Photo 1">
+      <img src="macro2.jpeg" alt="Macro Photo 2">
+      <img src="macro3.jpeg" alt="Macro Photo 3">
+    </div>
+  </section>
+
+  <!-- PORTRAITS -->
+  <section>
+    <h2 style="font-family:Playfair Display; margin-bottom:30px;">
+      Portraits
+    </h2>
+    <div class="grid gallery">
+      <img src="portrait1-large.jpeg" alt="Portrait Photo 1">
+      <img src="portrait2-large.jpeg" alt="Portrait Photo 2">
+      <img src="portrait3-large.jpeg" alt="Portrait Photo 3">
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section>
+    <div class="contact">
+      <h2>Contact Me</h2>
+      <p>📩 Email: <a href="mailto:thanvantr@gmail.com">thanvantr@gmail.com</a></p>
+      <p>📷 Instagram: <a href="https://instagram.com/iclicks_bythanvant" target="_blank">@iclicks_bythanvant</a></p>
+      <p>💻 GitHub: <a href="https://github.com/yourgithub" target="_blank">github.com/yourgithub</a></p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    © 2026 Thanvant R • Built with nature in mind 🌱  
+    <br>
+    <a href="https://instagram.com/iclicks_bythanvant">@iclicks_bythanvant</a> • 
+    <a href="https://github.com/yourgithub">GitHub</a> • 
+    <a href="mailto:thanvant@example.com">Email</a>
+  </footer>
+
+</body>
+</html>
